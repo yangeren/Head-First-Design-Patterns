@@ -9,4 +9,9 @@ public class MallardDuck extends Duck {
     public void display() {
         System.out.println("I'm a real Mallard duck");
     }
+
+    public static void main(String args[]) {
+        MallardDuck mallardDuck = new MallardDuck();
+        mallardDuck.display();
+    }
 }
